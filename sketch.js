@@ -49,4 +49,9 @@ function draw() {
 
 function gotFaces(results) {
   faces = results;
+  if (faces.length > 0) {
+	console.log(faces[0].keypoints);
+  faceMesh.detect(gotFaces);}
+  
+
 }
