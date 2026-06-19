@@ -48,6 +48,6 @@ function draw() {
 
 // Callback function for when faceMesh outputs data
 function gotFaces(results) {
-  // Save the output to the faces variable
+  // Save the output to the faces variable s 
   faces = results;
 }
